@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/oryx/python:3.7-20190712.5
+# FROM mcr.microsoft.com/oryx/python:3.7-20190712.5
+FROM tiangolo/uwsgi-nginx-flask:python3.7
 LABEL maintainer="teng.fu@teleware.com"
 
 
